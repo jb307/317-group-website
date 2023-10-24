@@ -1,0 +1,61 @@
+
+
+    h1 {
+        text-align: center;
+        font-size: 24px;
+        margin: 20px 0; /* Add margin to create space between the h1 and the FAQ content */
+      }
+
+      h2 {
+        text-align: center;
+        font-size: 10px;
+        margin: 20px 0;
+      }
+
+  .faq {
+    
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #e0ded9; /*the table background color*/
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .faq-question {
+    margin: 50px;
+    border: 1px solid #f5f5f5;
+    border-radius: 5px; /* border size around the questions*/
+    background-color: #e0ded9;
+  }
+
+  /* when you Hover above Qs the color changes */
+  .faq-question:hover {
+    background-color: #dde0e2;
+  }
+  
+  .faq-question summary { /*Questions*/
+    cursor: pointer; /*changes the pointer */
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f0f0f0; /*question box background color */
+    border: 1px solid #e7e5e2; /*border color*/
+    border-radius: 5px;
+  }
+  
+
+  /*Answer cells */
+
+  
+  .faq-question p {
+    display: none; /*none means the answers are hidden*/
+    margin: 0;
+    padding: 10px;
+  }
+  /*looking for a p ele. inside .faq ele. [open] click to show details */
+  .faq-question[open] p {
+    display: block; 
+  }
+  

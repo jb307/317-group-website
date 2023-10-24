@@ -1,0 +1,28 @@
+header {
+    position: relative;
+    padding: 75px;
+  }
+  
+  img.centered-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  nav {
+      position: center;
+      color: #000; 
+    }
+    
+    nav a {
+      color: #000; 
+      text-decoration: none; 
+      margin-right: 20px; 
+    }
+    
+    #form {
+      position: absolute;
+      right: 0;
+      margin-right: 20px;
+    }
