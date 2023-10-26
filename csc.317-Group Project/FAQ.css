@@ -1,4 +1,56 @@
 
+header {
+  background-color: #000000;
+  padding: 10px  0; 
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+nav {
+  color: #fff; /* Change the text color */
+  margin-top: 10px; /* Adjust the top margin*/
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.rightNav {
+  float: right;
+}
+
+#search {
+  margin-right: 10px; /* Adjust the right margin */
+}
+
+.btn {
+  background-color: #ebe9e9; /* Change the button color*/
+  color: #000000;
+  border: none; 
+  
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #121bbd; /* Change the hover color */
+}
 
     h1 {
         text-align: center;
@@ -6,18 +58,14 @@
         margin: 20px 0; /* Add margin to create space between the h1 and the FAQ content */
       }
 
-      h2 {
-        text-align: center;
-        font-size: 10px;
-        margin: 20px 0;
-      }
+    
 
   .faq {
     
     width: 90%;
     max-width: 800px;
     margin: 0 auto;
-    background-color: #e0ded9; /*the table background color*/
+    background-color: #ebe9e9; /*the table background color*/
     padding: 20px;
     border-radius: 5px;
   }
@@ -26,12 +74,12 @@
     margin: 50px;
     border: 1px solid #f5f5f5;
     border-radius: 5px; /* border size around the questions*/
-    background-color: #e0ded9;
+    background-color: #f7f3f3;
   }
 
   /* when you Hover above Qs the color changes */
   .faq-question:hover {
-    background-color: #dde0e2;
+    background-color: #08155152;
   }
   
   .faq-question summary { /*Questions*/
@@ -40,8 +88,8 @@
     font-size: 20px;
     margin: 10px;
     padding: 10px;
-    background-color: #f0f0f0; /*question box background color */
-    border: 1px solid #e7e5e2; /*border color*/
+    background-color: #ebe9e9; /*question box background color */
+    border: 1px solid #ebe9e9; /*border color*/
     border-radius: 5px;
   }
   
