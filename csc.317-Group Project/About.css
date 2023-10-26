@@ -1,44 +1,57 @@
 
+header {
+  text-align: center;
+  background-color: #000000;
+  padding: 1px  0; 
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  width: 100%;
+}
+
 nav {
-    color: #000000; /* Change the text color */
-    margin-top: 10px; /* Adjust the top margin*/
-  }
+  color: #fff; /* Change the text color */
+  margin-top: 10px; /* Adjust the top margin*/
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.rightNav {
+  float: right;
+}
+
+#search {
+  margin-right: 10px; /* Adjust the right margin */
+}
+
+.btn {
+  background-color: #ebe9e9; /* Change the button color*/
+  color: #000000;
+  border: none; 
   
-  nav ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  nav li {
-    display: inline;
-    margin-right: 20px;
-  }
-  
-  nav a {
-    color: #000000;
-    text-decoration: none;
-  }
-  
-  .rightNav {
-    float: right;
-  }
-  
-  #search {
-    margin-right: 10px; /* Adjust the right margin */
-  }
-  
-  .btn {
-    background-color: #0e0f29; /* Change the button color*/
-    color: #fff;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-  }
-  
-  .btn:hover {
-    background-color: #121bbd; /* Change the hover color */
-  }
-  
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #121bbd; /* Change the hover color */
+}
 
 h1{
     text-align: center;
@@ -57,7 +70,7 @@ p{
     height: 250px;
     padding: 1em;
     font-weight: 700;
-    background-color: rgb(223, 210, 187);
+    background-color: rgb(228, 228, 228);
     text-align: center;
 
 
@@ -79,3 +92,7 @@ a{
 img{
     font-size: 12px;
 }
+body {
+  margin-top: 100px; /* Adjust the top margin to make space for the fixed header */
+}
+

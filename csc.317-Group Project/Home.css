@@ -1,7 +1,35 @@
-header {
+
+.img-header {
   background-color: #000000;
-  padding: 10px 0; 
+  padding: 0;
   text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  width: 100%;
+
+}
+
+.centered-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+
+header {
+  text-align: center;
+  background-color: #000000;
+  padding: 1px  0; 
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  width: 100%;
 }
 
 nav {
@@ -33,8 +61,8 @@ nav a {
 }
 
 .btn {
-  background-color: #0e0f29; /* Change the button color*/
-  color: #fff;
+  background-color: #ebe9e9; /* Change the button color*/
+  color: #000000;
   border: none;
   padding: 5px 10px;
   cursor: pointer;
@@ -42,4 +70,8 @@ nav a {
 
 .btn:hover {
   background-color: #121bbd; /* Change the hover color */
+}
+
+body {
+  margin-top: 450px; /* Adjust the top margin to make space for the fixed header */
 }
