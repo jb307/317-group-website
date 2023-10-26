@@ -4,47 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
+    <link rel="stylesheet" href="Navigation.css">
+    <link rel="stylesheet" href="Login.css">
     <link rel="stylesheet" href="Register.css">
     <link rel="stylesheet" href="Main.css">
 </head>
 
 <header>
-    <nav class="navbar background">
-        <ul class="nav-list">
-            <li> <a href="Home.html" target="_blank">Home </a> </li>
-            <li> <a href="About.html" target="_blank">About</a> </li>
-            <li> <a href="FAQ.html" target="_blank">FAQ</a> </li>
-            <li> <a href="Login.html"target="_blank">Login </a> </li>
-        </ul>
+
+    <img class="centered-image" src="Home Pictures/SFCW-Logo.png" width="300">
+  
+
+    <nav>
+      <div class="navigation">
+        <a href="Home.html"target="_blank">Home</a>      
+        <a href="About.html"target="_blank">About</a>
+        <a href="FAQ.html">FAQ</a>
+        <a class= active href="Login.html"target="_blank">Login</a>
+        <form id="form">
+          <input type="search" id="query" name="q" placeholder="Search">
+          <button>Search</button>
+        </form>
+      </div>
 
     </nav>
 </header>
-<body> 
-    
-    <h1><b><u>SFCW ACCOUNT REGISTRY</u></b></h1>
-      
-   <br>
-   <br>
 
-        <div class="container">
+<body> 
+
+    <div class="title">
+    <h1><b><u>SFCW ACCOUNT REGISTRY</u></b></h1>
+    </div>
+      
+        <div class="center">
+        <div class="login">
             <label for="uname"><b>Username</b></label>
+            <br>
             <input type="text" placeholder="Enter Username" name="uname" required>
-        
-            <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" required>
-    
             <br>
-    
             <label for="email"><b>Email</b></label>
+            <br>
             <input type="email" placeholder="Enter Email" name="email" required>
-    
-            <label for="phone"><b>Phone Number</b></label>
-            <input type="password" placeholder="Enter Phonenumber" name="phone" required>
+            <br>
+            <label for="psw"><b>Password</b></label>
+            <br>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+            <br>
+            <label for="Retype Password"><b>Retype Password</b></label>
+            <br>
+            <input type="password" placeholder="Reytype password" name="psw" required>
         
             <br>
-            
-            <button type="submit">Register Account</button>
+            <hr>
+            <br>
+            <button onclick= "window.location.href='Login.html'" type="button" class="cancelbtn">Cancel</button>
+            <button type="submit" class="signupbtn">Register Account</button>
+            <br>
+            <br>
           </div>
+        </div>
     
 </body>
 </html>
