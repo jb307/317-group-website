@@ -73,5 +73,21 @@ nav a {
 }
 
 body {
-  margin-top: 450px; /* Adjust the top margin to make space for the fixed header */
+  margin-top: 450px; /* space between header and body */
+}
+
+.heatmap-container {
+  display: grid;
+  grid-template-columns: repeat(15, 21px); /* number of columns and the width */
+  grid-template-rows: repeat(20, 21px); /*  number of rows and the height */
+  grid-gap: 0px; /* Gap between cells */
+}
+
+
+.rainbow {
+  --hue: calc((1 - var(--intensity)) * 240);
+  background: hsl(var(--hue), 100%, 50%);
+  width: 20px; /* width of each cell */
+  height:20px; /* height of each cell */
+  transition: background 0.3s;
 }

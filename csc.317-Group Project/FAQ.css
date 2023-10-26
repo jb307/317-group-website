@@ -102,8 +102,56 @@ nav a {
     margin: 0;
     padding: 10px;
   }
-  /*looking for a p ele. inside .faq ele. [open] click to show details */
+
+
+  body {
+    margin-top: 115px; /* Adjust the top margin to make space for the fixed header */
+}
+
   .faq-question[open] p {
     display: block; 
   }
+  .contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    float: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+.form-submit {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.form-submit:hover {
+    background-color: #2980b9;
+}
+
   
