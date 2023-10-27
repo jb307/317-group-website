@@ -1,66 +1,4 @@
 
-header {
-  background-color: #000000;
-  padding: 10px  0; 
-  text-align: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-  width: 100%;
-}
-
-nav {
-  color: #fff; /* Change the text color */
-  margin-top: 10px; /* Adjust the top margin*/
-}
-
-nav ul {
-  list-style: none;
-  padding: 0;
-}
-
-nav li {
-  display: inline;
-  margin-right: 20px;
-
-}
-
-nav a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.rightNav {
-  float: right;
-}
-
-#search {
-  margin-right: 10px; /* Adjust the right margin */
-}
-
-.btn {
-  background-color: #ebe9e9; /* Change the button color*/
-  color: #000000;
-  border: none; 
-  
-  padding: 5px 10px;
-  cursor: pointer;
-}
-
-.btn:hover {
-  background-color: #121bbd; /* Change the hover color */
-}
-
-    h1 {
-        text-align: center;
-        font-size: 24px;
-        margin: 20px 0; /* Add margin to create space between the h1 and the FAQ content */
-      }
-
-    
-
   .faq {
     
     width: 90%;
@@ -104,10 +42,6 @@ nav a {
     padding: 10px;
   }
 
-
-  body {
-    margin-top: 115px; /* Adjust the top margin to make space for the fixed header */
-}
 
   .faq-question[open] p {
     display: block; 
