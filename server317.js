@@ -7,7 +7,7 @@ var express = require('express');
 var app = express();
 const fs = require('fs');
 
-var StaticDirectory = path.join(__dirname, 'csc.317-Group Project');
+var StaticDirectory = path.join(__dirname, 'Public');
 
 app.use(express.static(StaticDirectory));
 // Set up a route for the home page
