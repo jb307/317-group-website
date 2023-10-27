@@ -2,6 +2,7 @@
 body {
   font-family: American Typewriter, serif;
   background-color: #ffffff; 
+  padding: 0;
 }
 .heatmap-container {
   display: grid;
