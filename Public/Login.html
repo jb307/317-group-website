@@ -6,6 +6,7 @@
     <title> LOGIN </title>
     <link rel="stylesheet" href="Login.css">
     <link rel="stylesheet" href="Main.css">
+    <script src="Login.js"></script>
 </head>
 
 <header>
@@ -41,23 +42,60 @@
     <div class="login">
         <label for="uname"><b>Username</b></label>
         <br>
-        <input type="text" placeholder="Enter Username" name="uname" required>
+        <input type="text" placeholder="Enter Username" id="uname" required>
         <br>
         <label for="psw"><b>Password</b></label>
         <br>
-        <input type="password" placeholder="Enter Password" name="psw" required>
+        <input type="password" placeholder="Enter Password" id="psw" required>
         <br>
-        <label>
-          <input type="checkbox" checked="checked" name="remember"> Remember me
-        </label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
         <br>
-        <button type="submit" class="login">Login</button>
-      </div>
+        <div>
+          <b>Don't have an account?</b> <a class="click" onclick="document.getElementById('Reg').style.display='block'" > <u>Register Here.</u></a>
+        </div>
+        <button class = "login" type="submit" class="login" onclick="validate()">Login</button>
+        </div>
+        </div>
+       </form>
 
-      <b>Don't have an account? <a href="Register.html" >Register Here.</a>
-    </div> 
 
-    </form>
+<div id="Reg" class="reg">
+  <span onclick="document.getElementById('Reg').style.display='none'" class="close" title="Close Reg">&times;</span>
+  <form>
+    <div class="container">
+        <div class="login">
+          <div class="title">
+            <h1><b><u>SFCW ACCOUNT REGISTRY</u></b></h1>
+            </div>
+              
+            <label for="uname"><b>Username</b></label>
+            <br>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+            <br>
+            <label for="name"><b>Name</b></label>
+            <br>
+            <input type="text" placeholder="Enter First Name" name="name" required>
+            <br>
+            <label for="psw"><b>Password</b></label>
+            <br>
+            <input type="password" placeholder="Enter Password" id="psw1" required>
+            <br>
+            <label for="Retype Password"><b>Retype Password</b></label>
+            <br>
+            <input type="password" placeholder="Reytype password" id="psw2" required>
+            <br>
+            <hr>
+            <input type="checkbox" checked="checked" name="TOS"> I agree to this sites terms of service.
+            <br>
+            <br>
+            <button type="button" class="signupbtn" onclick="match()">Register Account</button>
+            <button type="button" class="cancelbtn" onclick="document.getElementById('Reg').style.display='none'">Cancel</button>
+            <br>
+            <br>
+          </div>
+        </div>
+    </div>
+</div>
 
 </body>
 </html>
