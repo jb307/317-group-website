@@ -40,24 +40,35 @@
     <div class="center">
 
     <div class="login">
-        <label for="uname"><b>Username</b></label>
+        <label for="login-username"><b>Username</b></label>
         <br>
-        <input type="text" placeholder="Enter Username" id="uname" required>
+        <input type="text" placeholder="Enter Username" id="login-username" required>
         <br>
-        <label for="psw"><b>Password</b></label>
+        <label for="login-password"><b>Password</b></label>
         <br>
-        <input type="password" placeholder="Enter Password" id="psw" required>
+        <input type="password" placeholder="Enter Password" id="login-password" required>
         <br>
         <input type="checkbox" checked="checked" name="remember"> Remember me
         <br>
         <div>
           <b>Don't have an account?</b> <a class="click" onclick="document.getElementById('Reg').style.display='block'" > <u>Register Here.</u></a>
         </div>
-        <button class = "login" type="submit" class="login" onclick="validate()">Login</button>
+        <button class = "login" type="button" class="login" onclick="log();">Login</button>
         </div>
         </div>
        </form>
 
+
+       <div id="custom-alert" class="alert">
+        <h1 id = "alert-text"> Error </h1>
+        <span class="closebtn" onclick="closeAlert()">&times;</span>
+    </div>
+
+    <div id="custom-alert2" class="alert2">
+      <h1 id = "alert-text2"> Error </h1>
+      <!-- <br>
+      <h1> Redirecting shortly.</h1> -->
+  </div>
 
 <div id="Reg" class="reg">
   <span onclick="document.getElementById('Reg').style.display='none'" class="close" title="Close Reg">&times;</span>
@@ -68,15 +79,15 @@
             <h1><b><u>SFCW ACCOUNT REGISTRY</u></b></h1>
             </div>
               
-            <label for="uname"><b>Username</b></label>
+            <label for="reg-username"><b>Username</b></label>
             <br>
-            <input type="text" placeholder="Enter Username" name="uname" required>
+            <input type="text" placeholder="Enter Username" id="reg-username" required>
             <br>
             <label for="name"><b>Name</b></label>
             <br>
-            <input type="text" placeholder="Enter First Name" name="name" required>
+            <input type="text" placeholder="Enter First Name" id="name" required>
             <br>
-            <label for="psw"><b>Password</b></label>
+            <label for="Password"><b>Password</b></label>
             <br>
             <input type="password" placeholder="Enter Password" id="psw1" required>
             <br>
