@@ -53,23 +53,58 @@ text-align: center;
 }
 
 
-/* Parking Tips */
-#container-tips {
+body {
+display: flex;
+flex-wrap: wrap;
+}
 
-padding-top: 20px;
-padding-right: 120px;
-padding-left: 130px;
+header {
+width: 100%;
+}
+
+#news-container h1 {
+font-size: large;
+text-align: center;
 
 }
 
-#container-tips h5 {
-  text-align: left;
-  
+#news-container script {
+padding-right: 200px;
+
+}
+
+.container-articles {
+flex: 1;
+box-sizing: border-box;
+}
+
+.container-articles #news-container {
+
+}
+
+.parking-container {
+flex-basis: 30%; 
+
+
+}
+
+.parking-container h5,
+.parking-container h1 {
+color: #333; 
+}
+
+.parking-container ul {
+list-style-type: none;
+padding: 0;
+}
+
+.parking-container li {
+margin-bottom: 10px;
 }
 
 #container-tips h1 {
 
-font-size: large;
 text-align: center;
+
 
 }
