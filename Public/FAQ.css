@@ -1,92 +1,161 @@
 
-  .faq {
+/* Light mode styles */
+body.light-mode {
+  background-color: #fff;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.faq {
     
-    width: 90%;
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: #ebe9e9; /*the table background color*/
-    padding: 20px;
-    border-radius: 5px;
-  }
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ebe9e9; /*the table background color*/
+  padding: 20px;
+  border-radius: 5px;
+}
+
+
+.faq-question {
+  margin: 50px;
+  border: 1px solid #f5f5f5;
+  border-radius: 5px; /* border size around the questions*/
+  background-color: #f7f3f3;
   
-  .faq-question {
-    margin: 50px;
-    border: 1px solid #f5f5f5;
-    border-radius: 5px; /* border size around the questions*/
-    background-color: #f7f3f3;
-  }
+}
 
-  /* when you Hover above Qs the color changes */
-  .faq-question:hover {
-    background-color: #08155152;
-  }
-  
-  .faq-question summary { /*Questions*/
-    cursor: pointer; /*changes the pointer */
-    font-weight: bold;
-    font-size: 20px;
-    margin: 10px;
-    padding: 10px;
-    background-color: #ebe9e9; /*question box background color */
-    border: 1px solid #ebe9e9; /*border color*/
-    border-radius: 5px;
-  }
-  
+/* when you Hover above Qs the color changes */
+.faq-question:hover {
+  background-color: #08155152;
+}
 
-  /*Answer cells */
-
-  
-  .faq-question p {
-    display: none; /*none means the answers are hidden*/
-    margin: 0;
-    padding: 10px;
-  }
+.faq-question summary { /*Questions*/
+  cursor: pointer; /*changes the pointer */
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #ebe9e9; /*question box background color */
+  border: 1px solid #ebe9e9; /*border color*/
+  border-radius: 5px;
+}
 
 
-  .faq-question[open] p {
-    display: block; 
-  }
-  .contact-form {
-    max-width: 400px;
-    margin: 0 auto;
-    float: left;
+/*Answer cells */
+
+.faq-question p {
+  display: none; /*none means the answers are hidden*/
+  margin: 0;
+  padding: 10px;
+}
+
+
+.faq-question[open] p {
+  display: block; 
+}
+.contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+  float: left;
 }
 
 .form-group {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .form-label {
-    display: block;
-    font-weight: bold;
+  display: block;
+  font-weight: bold;
 }
 
 .form-input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 .form-textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    resize: vertical;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
 }
 
 .form-submit {
-    background-color: #3498db;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
 }
 
 .form-submit:hover {
-    background-color: #2980b9;
+  background-color: #2980b9;
 }
 
-  
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #000;
+  color: #fff;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode .faq {
+    width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #333;
+   padding: 20px;
+  border-radius: 5px;
+}
+
+body.dark-mode .faq-question {
+  margin: 50px;
+  border: 1px solid #f5f5f5;
+  border-radius: 5px; /* border size around the questions*/
+  background-color: #222;
+  border: 1px solid #444;
+}
+
+body.dark-mode .faq-question:hover {
+  background-color: #08155152;
+}
+
+body.dark-mode .faq-question summary {
+  cursor: pointer; /*changes the pointer */
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #333;
+  border: 1px solid #333;
+  border-radius: 5px; 
+}
+
+body.dark-mode .faq-question p {
+  display: none;
+  margin: 0;
+  padding: 10px;
+}
+
+body.dark-mode .faq-question[open] p {
+  display: block;
+}
+
+body.dark-mode .form-submit {
+  background-color: #3498db; /* You can customize this color for dark mode */
+ color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+body.dark-mode .form-submit:hover {
+  background-color: #2980b9;
+}
+
