@@ -1,36 +1,75 @@
-h1{
+/* Top Story */ 
+#container-center {
+  padding-right: 120px;
+  padding-left: 130px;
+  font-size: medium;
+
+}
+
+#container-center img {
+
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  padding-bottom: 50px;
+}
+
+
+#container-center h5 {
+  text-align: left;
+ 
+}
+
+#container-center h1 {
   text-align: center;
-
-}
-h2{
-  text-align: center;
-
-}
-p{
-  text-align: center;
-  margin-left: 20px;
-  margin-right: 20px;
+  padding-bottom: 45px;
+  
 }
 
-
-body {
-  font-family: American Typewriter, serif;
-  background-color: #ffffff; 
-  padding: 0;
-}
-.heatmap-container {
-  justify-content: center;
-  align-items: center;
-  display: grid;
-  grid-template-columns: repeat(15, 21px); /* number of columns and the width */
-  grid-template-rows: repeat(20, 21px); /*  number of rows and the height */
-  grid-gap: 0px; /* Gap between cells */
+/* Articles */
+#news-container {
+padding-right: 120px;
+padding-left: 130px;
+font-size: medium;
 }
 
-.rainbow {
-  --hue: calc((1 - var(--intensity)) * 240);
-  background: hsl(var(--hue), 100%, 50%);
-  width: 20px; /* width of each cell */
-  height:20px; /* height of each cell */
-  transition: background 0.3s;
+#news-container h5 {
+  text-align: left;
+  
+}
+
+#news-container h1 {
+font-size: large;
+text-align: center;
+
+}
+
+
+#news-container a {
+color: black;
+font-size: medium;
+text-align: center;
+
+}
+
+
+/* Parking Tips */
+#container-tips {
+
+padding-top: 20px;
+padding-right: 120px;
+padding-left: 130px;
+
+}
+
+#container-tips h5 {
+  text-align: left;
+  
+}
+
+#container-tips h1 {
+
+font-size: large;
+text-align: center;
+
 }

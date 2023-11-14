@@ -6,21 +6,13 @@
     <title>Home</title>
     <link rel="stylesheet" href="Home.css">
     <link rel="stylesheet" href="Main.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
    
         <header>
         
             <img class="centered-image" src="Home Pictures/Logo.png" alt="Logo" width="100%">
         
-      
-       <!--- <form id="form"> 
-            <div>
-            <input type="search" id="query" name="q" placeholder="Search">
-            <button>Search</button>
-            </div>
-          </form> 
-        --> 
-
         <nav class="navbar background">
             <ul class="nav-list">
                 <li><a class=active href="Home.html">Home</a></li>
@@ -35,297 +27,66 @@
         </nav>
     </header>
 
-    <body>
+    <body class="m-0 p-0">
 
-        <div class="main-content">
-            <div class="headline-story">
-                <h1>Headline Story</h1>
-               <p> SAN FRANCISCO-- Officials claim that an off-duty pilot aboard an Alaska Airlines flight attempted to turn off the engines by pulling the fire extinguisher handles, leading to the pilot's 83 counts of attempted murder indictment.
+
+            <!-- Top Story-->
+        <div id="container-center">
+            <h5>Crime //</h5>
+            <h1><strong>Woman Arrested in San Francisco Bath & Body Works thefts charged with 16 counts</strong></h1>
+            <img src="/Pictures/Bath&Body-Works.jpeg" width="900px">
+            <p> A San Francisco woman has been arrested and arraigned on more than a dozen charges in connection 
+                with a series of commerical burglaries, including the theft of more than $15,000 in goods from a 
+                Bath & Body Works store.
+                <br><br>
+                District Attorney Brooke Jenkins announced that police arrested 30-year-old Carmelita Barela Monday
+                without incident in connection with the thefts.
+                <br><br>
+                "This arrest and prosecution reflects on our on-going commitment to hold repeat offenders accountable
+                for their actions," Jenkins said in a statement.
+                <br><br>
+                Prosecutors allege Barela took part in at least 20 retail thefts between March 30 and October
+                29. During that time, Barela and others allegedly stole $15,079.90 in goods from the Bath &
+                Body Works at the Westfield San Francisco Centre.
+                <br><br>
+                Barela was arraigned Thursday on one count of felony organized retail theft, six counts of
+                felony grand theft and nine counts of misdemeanor shoplifting. She entered not guilty pleas to
+                all charges.
+                <br><br>
+                Prosecutors said Barela remains in custody without bail. Her next court appearance is scheduled for Monday.
+                <br><br>
+                Anyone with additional information about the case is urged to contact the San Francisco Police Department's 
+                tip line at 415-575-4444 or by texting TIP411, beginning the message with "SFPD".
+            </p>
+            <br>
+        </div>
     
-        Following a "credible security threat related to an authorized occupant in the flight deck jump seat," the aircraft was originally scheduled to take off from Everett, Washington, for San Francisco. However, it was diverted to Portland late on Sunday, Alaska Airlines confirmed.
-        
-        A federal official informed on the investigation stated that preliminary evidence acquired by investigators suggested the suspect attempted to pull the fire extinguisher handles on the engines. The FBI official said the suspect was overpowered by the flight crew, detained, and then shackled to a seat.
-        
-        The Port of Portland reported that Joseph David Emerson, the suspect, had been taken into custody. The Multnomah County Sheriff's Office said Emerson is accused of 83 counts of attempted murder. In addition, he faces one felony case of endangering an aircraft, 83 charges of reckless endangerment, and a misdemeanor.
-        
-        According to the official, the suspect was traveling to San Francisco, where he was supposed to be a member of the flight crew on a 737.
-        
-        According to Alaska Airlines, the pilot who was not on duty was seated in the cockpit's flight deck jump seat when he "unsuccessfully attempted to disrupt the operation of the engines."
-        
-        Alaska reported that the captain and first officer "quickly responded," adding that there was no loss of engine power and that the crew successfully secured the aircraft.
-        
-        According to Alaska, there were four crew members and eighty passengers on the flight.
-        
-        In a statement to carriers, the Federal Aviation Administration noted that the incident is "not connected in any way shape or form to current world events."
-        
-        Law enforcement is looking into the incident, the airline stated. In addition to confirming that it is investigating the event, the FBI said it "can assure the traveling public there is no continuing threat related to this incident."
-        
-        "I am grateful for the professional flight crew and air traffic controllers who stepped up to guide this plane safely to Portland," stated Secretary of Transportation Pete Buttigieg in a statement. The FAA will concentrate on any future safety concerns that arise from investigations and will assist law enforcement in their response."
-        
-        In a statement, the pilots' organization, Air Line Pilots Association, International, commended the pilots and crew for the safe landing and declared that it is completely assisting the authorities.
-        
-        "The airline pilot profession in North America is one of the most thoroughly screened and examined careers, and with good reason," the union continued. The US has been at the forefront of proactively enhancing aviation safety and preserving a safe working environment for pilots for many years. Furthermore, American pilots undergo ongoing assessments throughout their careers from the Federal Aviation Administration, the airline, and medical examinations, crew resource management, and programs like the Line Operations Safety Audit.
-            </p>
+        <!-- Javascript -->
+        <!-- Articles-->
+        <div class="container-articles">
+            <script src="News-API.js"></script>
+            <div id="news-container">
+                <h5>Articles //</h5>
+                <h1><strong>San Francisco and Daly City Articles</strong></h1>
+            </div>
+            
+            </div>
         </div>
-
-        <br>
-        <div class="right-column">
-            <h1>Alerts</h1>
-            <p>
-<b>Santa Rosa Ave & Alemany Blvd </b>
-| Vehicle Flipped in Crash, Uprighted by Emergency Services
-
-<br> <br>
-<b>Natoma St & 8th St</b>
-| Pedestrian Struck by vehicle
-
-<br><br>
-
- <b>799 Beach St</b>
- | Small Outside Fire Reported
-
- <br><br>
-<b>1175 Columbus Ave</b>
-| Assualt Suspect Reported
-
-<br><br>
-<b>Mason St & Beach St</b>
-
-| Report of Gunshots Heard
-            </p>
+    
+         <!-- Parking Tips-->
+        <div class="parking-container">
+        <div id="container-tips">
+            <h5>Safety //</h5>
+            <h1><strong>Parking Tips</strong></h1>
+            <ul>
+                <li>Visitors should not leave any luggage in their vehicle. Rental cars are easy to identify and are targeted by thieves</li>
+                <li>Popular spots for tourists are also hot sports for car break-ins and robberies.</li>
+                <li>Try your best to park in busy areas with other vehicles and people.</li>
+                <li>Use common sense, situational awareness and trust your instincts. If a parking location or situation feels unsafe, find an alternative.</li>
+            </ul>
         </div>
-
-    <br>
-       <h1 class="column">San Francisco Parking Tips</h1>
-        <p class="column">
-- Do not leave anything valuable exposed and unattended in your vehicle, try to take the items with you.
-<br><br>
-- Tourists should not leave any luggage in their vehicle. Rental cars are easy to identify and are primarily targeted by
-  thieves.
-  <br><br>
-- Popular spots for tourists are also hot spots for car break-ins and robberies.
-<br><br>
-- Try your best to park in busy areas with other vehicles and people.
-<br><br>
-- Use common sense and trust your instincts. If a parking location or situation feels unsafe, find an alternative.
-
-    <div>                                                    
-        <h1 class="heat-map">San Francisco Crime Heat Map</h1>
-        </div>
-  
-        <div class="heatmap-container">
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.1;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.5;"></div>
-            <div class="heatmap-cell rainbow" style="--intensity: 0.8;"></div>
-            <!-- Add more cells if we need different intensities -->
-          </div>
-          <p>**Heatmap added with js</p>
-</body>
+    
+    
+    </body>
+    
 </html>
