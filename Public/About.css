@@ -164,4 +164,24 @@ body.dark-mode   body {
 margin-top: 100px; /* Adjust the top margin to make space for the fixed header */
 }
 
-  
+mark{
+  background: yellow;
+}
+
+#searchBox {
+  float: right; /*search bar*/
+}
+#input {
+  margin-right: 10px; /* Adjust the right margin */
+    float: right;
+    border: none;
+    padding: 10px;
+}
+#searchBtn {
+  background-color: #ebe9e9; /* Change the button color*/
+    color: #000000;
+    border: none; 
+    padding: 10px;
+    cursor: pointer;
+}
+ 
